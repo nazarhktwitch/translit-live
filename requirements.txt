@@ -1,2 +1,2 @@
 pyperclip
-pyinput
+pynput
