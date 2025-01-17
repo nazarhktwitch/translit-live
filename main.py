@@ -29,7 +29,7 @@ def on_press(key):
             input_buffer.append(key.char)
         elif key == keyboard.Key.space:
             input_buffer.append(' ')
-        elif key == keyboard.Key.enter:
+        elif key == keyboard.Key.ctrl_r:
             # При нажатии Enter выполняем транслитерацию
             original_text = ''.join(input_buffer)
             transliterated_text = transliterate(original_text)
