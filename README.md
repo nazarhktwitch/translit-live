@@ -1,5 +1,7 @@
 # Transliteration and Keyboard Input Interception
 
+## WARNING!!! Use russian layout before starting app
+
 ## Overview
 This Python program transliterates text from Cyrillic to Latin in real time while intercepting keyboard input. It allows users to type in any application (e.g., Telegram, Minecraft), transliterate the text, and copy the result to the clipboard upon pressing Enter.
 
@@ -41,7 +43,7 @@ pip install pynput pyperclip
    python translit_interceptor.py
    ```
 
-3. Start typing in any application. When you press `Enter`, the transliterated text will be displayed in the console and copied to the clipboard.
+3. Start typing in any application. When you press `Right Control`, the transliterated text will be displayed in the console and copied to the clipboard.
 
 ## Transliteration Table
 The program uses the following mapping for transliteration:
